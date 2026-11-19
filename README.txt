@@ -1,34 +1,22 @@
-VIP PRIVATE TRANSFER — ГОТОВЫЙ САЙТ
+VIP PRIVATE TRANSFER — LANDING PAGE v2
+19.11.2026
 
-Состав:
-  index.html — адаптивный одностраничный сайт на русском языке.
-  photos/01.jpg ... photos/06.jpg — реальные фотографии компании,
-      аккуратно обрезанные из шести присланных TikTok-скриншотов.
-Все фотографии уже работают локально, не требуют загрузки с Unsplash.
+Live URL: https://vitaliicostiuc.github.io/vip-private-transfer/
+Author: VKey Digital · https://www.tiktok.com/@vitalii.digital.pro
+Company TikTok: https://www.tiktok.com/@vip.private.transfer
 
-Телефон и WhatsApp: +373 699 89 009
-WhatsApp: https://wa.me/37369989009
-TikTok источника: @vip.private.transfer
+Features:
+- RU / RO / EN language switching; all translations stored in index.html.
+- Booking form: departure, destination, date, time, passengers (1, 2, 3–4, 5–8, 9+), luggage, optional flight/notes.
+- User submits -> prefilled WhatsApp message to +373 699 89 009. The user sends the message in WhatsApp; no booking or price is confirmed on the website.
+- Six photos from the company's official TikTok screenshots, now in an accessible click-to-enlarge gallery.
+- Official company TikTok link, mobile-first responsive design, basic SEO + social share metadata.
+- Visible VKey Digital attribution in footer. See ATTRIBUTION.txt.
 
-ЗАПУСК ЛОКАЛЬНО
-Откройте index.html в браузере. Интернет требуется только для Google Fonts
-и для перехода в WhatsApp.
+The site uses index.html and photos/*.jpg. JavaScript and styles are inline in index.html.
+Google Fonts (Montserrat) is optional; fallback to Arial if offline. No external framework, database, subscription or paid API.
 
-БЕСПЛАТНАЯ ПУБЛИКАЦИЯ
-Cloudflare Pages: https://dash.cloudflare.com/
-Workers & Pages → Create → Pages → Upload assets → папка этого сайта.
+Publishing: GitHub repository VitaliiCostiuc/vip-private-transfer, branch main.
+To update, modify index.html or photos/ files and push to the main branch; Pages will republish automatically.
 
-Netlify Drop: https://app.netlify.com/drop
-Перетащите папку сайта с файлом index.html и папкой photos.
-
-ОБНОВЛЕНИЯ
-Замените файлы images внутри photos/ теми же именами для улучшения качества.
-Текущие файлы были извлечены из скриншотов, а не исходных фото:
-их качество ограничено разрешением TikTok-скриншотов.
-
-Важно: постоянный публичный адрес появится только после реального развёртывания
-в выбранном аккаунте хостинга. Название поддомена зависит от доступности.
-
-
-Разработчик: VKey Digital, @vitalii.digital.pro. Авторская подпись
-является элементом демонстрационной версии. Условия см. ATTRIBUTION.txt.
+Note: photo quality is limited by the original TikTok screenshots; original photos can be swapped later without rewriting the site.
